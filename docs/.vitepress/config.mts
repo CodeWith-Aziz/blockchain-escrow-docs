@@ -35,9 +35,9 @@ export default defineConfig({
     search: {
       provider: "algolia",
       options: {
-        appId: "YOUR_ALGOLIA_APP_ID",
-        apiKey: "YOUR_SEARCH_API_KEY",
-        indexName: "YOUR_INDEX_NAME",
+        appId: "WDEJK9K672",
+        apiKey: "c5ae631b152a1e3e087c593cadd8d17a",
+        indexName: "blockchain-escrow-docs",
         mode: "hybrid",
         askAi: {
           sidePanel: {
@@ -91,6 +91,6 @@ export default defineConfig({
     ],
 
     // 🔗 FIX: PROPERLY SYNTAXED GITHUB NAVBAR LINK
-    socialLinks: [{ icon: "github", link: "https://githubcom/CodeWith-Aziz" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/CodeWith-Aziz" }],
   },
 });

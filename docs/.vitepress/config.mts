@@ -38,6 +38,7 @@ export default defineConfig({
         appId: "WDEJK9K672",
         apiKey: "c5ae631b152a1e3e087c593cadd8d17a",
         indexName: "blockchain-escrow-docs",
+        assistantId: "90c149e4-4ccc-4aa3-86a3-9e3017f8893a",
         mode: "hybrid",
         askAi: {
           sidePanel: {
